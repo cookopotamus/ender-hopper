@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enderhopper",
+  "version": "${version}",
+  "name": "Ender Hopper",
+  "description": "Adds a new type of Hopper that can be used with an Ender Chest. Based off of the 1.12.2 Forge mod from lemons.",
+  "authors": ["lemon", "aNethoR"],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/cookopotamus/ender-hopper",
+    "issues": "https://github.com/cookopotamus/ender-hopper/issues",
+    "sources": "https://github.com/cookopotamus/ender-hopper"
+  },
+  "license": "MIT",
+  "icon": "assets/enderhopper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.cookopotamus.enderhopper.EnderHopperMod"],
+    "client": [],
+    "server": []
+  },
+  "mixins": ["enderhopper.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.8.8",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  }
+}

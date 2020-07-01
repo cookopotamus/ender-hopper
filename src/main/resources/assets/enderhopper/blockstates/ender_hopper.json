@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=down": { "model": "enderhopper:block/ender_hopper_down" },
+    "facing=north": { "model": "enderhopper:block/ender_hopper_side" },
+    "facing=south": { "model": "enderhopper:block/ender_hopper_side", "y": 180 },
+    "facing=west": { "model": "enderhopper:block/ender_hopper_side", "y": 270 },
+    "facing=east": { "model": "enderhopper:block/ender_hopper_side", "y": 90 }
+  }
+}
